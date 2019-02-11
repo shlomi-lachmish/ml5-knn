@@ -1,0 +1,44 @@
+video {
+  width: 300;
+  height: 300;
+}
+p {
+  display: inline;
+  font-size: 16px;
+}
+.emoji {
+  font-size: 24px;
+}
+.feature-container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 1rem auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+}
+.feature-header {
+  margin: 0.5rem 1rem;
+}
+#features {
+  max-width: 80%;
+}
+#create-container {
+  display: flex;
+  justify-content: left;
+}
+.container {
+  margin: 1rem;
+  width: 50rem;
+}
+#create-container .btn,
+.model-save button,
+#features button,
+.control-features button {
+  margin: 0 1rem 1rem 1rem;
+  width: 10rem;
+}
+#create-container input {
+  width: 20rem;
+}
+.mark-feature {
+  background: #ffa325;
+}

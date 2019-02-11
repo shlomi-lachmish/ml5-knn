@@ -1,0 +1,5 @@
+applications:
+  - name: MEERA
+    instances: 1
+    memory: 256M
+    health-check-type: process
